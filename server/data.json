@@ -1,0 +1,214 @@
+{
+  "teachers": {
+    "t1": {
+      "id": "t1",
+      "name": "Prof. Alan Turing",
+      "email": "teacher@school.edu",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    }
+  },
+  "students": {
+    "s1": {
+      "id": "s1",
+      "name": "Ada Lovelace",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s2": {
+      "id": "s2",
+      "name": "Grace Hopper",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s3": {
+      "id": "s3",
+      "name": "Charles Babbage",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s4": {
+      "id": "s4",
+      "name": "John von Neumann",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s5": {
+      "id": "s5",
+      "name": "Margaret Hamilton",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s6": {
+      "id": "s6",
+      "name": "Tim Berners-Lee",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s7": {
+      "id": "s7",
+      "name": "Linus Torvalds",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "s8": {
+      "id": "s8",
+      "name": "Vint Cerf",
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "8y7law8qg": {
+      "id": "8y7law8qg",
+      "name": "zorras 123",
+      "createdAt": "2025-11-15T18:12:10.132Z"
+    }
+  },
+  "courses": {
+    "c1": {
+      "id": "c1",
+      "name": "Cálculo I",
+      "teacherId": "t1",
+      "students": [
+        {
+          "id": "s1",
+          "name": "Ada Lovelace"
+        },
+        {
+          "id": "s2",
+          "name": "Grace Hopper"
+        },
+        {
+          "id": "s3",
+          "name": "Charles Babbage"
+        },
+        {
+          "id": "s4",
+          "name": "John von Neumann"
+        },
+        {
+          "id": "s5",
+          "name": "Margaret Hamilton"
+        },
+        {
+          "id": "8y7law8qg",
+          "name": "zorras 123",
+          "createdAt": "2025-11-15T18:12:10.132Z"
+        }
+      ],
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "c2": {
+      "id": "c2",
+      "name": "Introducción a los Algoritmos",
+      "teacherId": "t1",
+      "students": [
+        {
+          "id": "s3",
+          "name": "Charles Babbage"
+        },
+        {
+          "id": "s4",
+          "name": "John von Neumann"
+        },
+        {
+          "id": "s5",
+          "name": "Margaret Hamilton"
+        },
+        {
+          "id": "s6",
+          "name": "Tim Berners-Lee"
+        },
+        {
+          "id": "s7",
+          "name": "Linus Torvalds"
+        }
+      ],
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "c3": {
+      "id": "c3",
+      "name": "Arquitectura de Computadoras",
+      "teacherId": "t1",
+      "students": [
+        {
+          "id": "s5",
+          "name": "Margaret Hamilton"
+        },
+        {
+          "id": "s6",
+          "name": "Tim Berners-Lee"
+        },
+        {
+          "id": "s7",
+          "name": "Linus Torvalds"
+        },
+        {
+          "id": "s8",
+          "name": "Vint Cerf"
+        }
+      ],
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    },
+    "c4": {
+      "id": "c4",
+      "name": "Álgebra Lineal",
+      "teacherId": "t1",
+      "students": [
+        {
+          "id": "s1",
+          "name": "Ada Lovelace"
+        },
+        {
+          "id": "s2",
+          "name": "Grace Hopper"
+        },
+        {
+          "id": "s3",
+          "name": "Charles Babbage"
+        },
+        {
+          "id": "s4",
+          "name": "John von Neumann"
+        },
+        {
+          "id": "s5",
+          "name": "Margaret Hamilton"
+        },
+        {
+          "id": "s6",
+          "name": "Tim Berners-Lee"
+        },
+        {
+          "id": "s7",
+          "name": "Linus Torvalds"
+        },
+        {
+          "id": "s8",
+          "name": "Vint Cerf"
+        }
+      ],
+      "createdAt": "2025-11-15T12:00:00.000Z"
+    }
+  },
+  "attendance": {
+    "d61oi2tfb": {
+      "id": "d61oi2tfb",
+      "courseId": "c1",
+      "date": "2025-11-15T18:12:12.602Z",
+      "records": {
+        "s1": "present",
+        "s2": "present",
+        "s3": "present",
+        "s4": "present",
+        "s5": "present",
+        "8y7law8qg": "present"
+      },
+      "createdAt": "2025-11-15T18:12:12.604Z"
+    },
+    "7dcb4ig2x": {
+      "id": "7dcb4ig2x",
+      "courseId": "c1",
+      "date": "2025-11-15T18:14:43.788Z",
+      "records": {
+        "s1": "present",
+        "s2": "present",
+        "s3": "present",
+        "s4": "present",
+        "s5": "present",
+        "8y7law8qg": "present"
+      },
+      "createdAt": "2025-11-15T18:14:43.788Z"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.dashboard-content {
+  --background: #f4f5f8;
+}
+
+.dashboard-header {
+  margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222428;
+  margin-bottom: 5px;
+}
+
+.dashboard-header p {
+  font-size: 16px;
+  color: #92949c;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.no-courses-card {
+  margin-top: 40px;
+}
+
+.no-courses-content {
+  text-align: center;
+  padding: 40px 20px;
+  color: #92949c;
+}
+
+@media (max-width: 600px) {
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+}

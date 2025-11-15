@@ -1,0 +1,5 @@
+{
+  "name": "Attendance Tracker",
+  "description": "A mobile-first application for teachers to take student attendance for their courses.",
+  "requestFramePermissions": []
+}

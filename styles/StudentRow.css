@@ -1,0 +1,58 @@
+.student-row {
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  --background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.student-avatar {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #3880ff 0%, #3dc9c3 100%);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-badge {
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.status-present {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-absent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-tardy {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.status-btn {
+  --padding-start: 6px;
+  --padding-end: 6px;
+  --padding-top: 6px;
+  --padding-bottom: 6px;
+  --icon-font-size: 24px;
+}

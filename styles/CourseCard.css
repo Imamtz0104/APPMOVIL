@@ -1,0 +1,44 @@
+.course-card {
+  --background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.course-card:hover {
+  --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.course-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222428;
+  margin: 0 0 12px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.course-info {
+  margin-bottom: 12px;
+}
+
+.course-info ion-badge {
+  font-size: 12px;
+}
+
+.course-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  color: #3880ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.course-action ion-icon {
+  font-size: 18px;
+}
